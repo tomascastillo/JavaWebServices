@@ -1,0 +1,12 @@
+#!/bin/bash
+#primeros 3 cargados OK
+#ahora pruebo primeros 5. 7
+url="-u INTEGRACIONCOTIZADOR:Fiber1234 https://ccda-test.fs.us2.oraclecloud.com/crmRestApi/resources/11.13.17.11/setupSalesCatalogs/300000006594662/child/ProductGroupRelationSetup"
+for line in $(cat crearBodyJson); do
+    content=$(curl $url -X "POST" -H "Content-Type:application/vnd.oracle.adf.resourceitem+json"  --data $line)
+    echo $url
+echo $line
+echo $content
+#    echo $content >> responseApi
+ 
+done
