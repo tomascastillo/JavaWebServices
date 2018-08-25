@@ -1,4 +1,4 @@
-package apiSales;
+package PostApiSales;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
