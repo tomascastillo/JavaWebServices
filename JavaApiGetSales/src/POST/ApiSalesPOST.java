@@ -14,21 +14,19 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
-public class crearProds{
+public class ApiSalesPOST {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub'
-		URL url = new URL("https://ccxn-test.crm.us6.oraclecloud.com/crmRestApi/resources/11.13.17.11/products");
+		URL url = new URL("https://ccda-test.crm.us2.oraclecloud.com/crmRestApi/resources/11.13.17.11/setupSalesCatalogs/300000006594662/child/ProductGroupRelationSetup/");
 		HttpURLConnection con = (HttpURLConnection) url.openConnection();
-		String descripcion,name;
-		String itemNumber=descripcion=name="Producto de Test REST Tomas 4";
-		String json="{%ItemNumber% : %"+itemNumber+"%,  %Description% : %"+descripcion+"%,  %Name% : %"+name+"%, %DefaultUOMCode% : %zzy%, %ProductTypeCode% : %GOODS%}";
+		String json="{%RelProdGroupId%: 300000096324549}";
 		String json2 = json.replaceAll("%","\"");
 		System.out.println(json2);
 		con.setRequestMethod("POST");
 		con.setRequestProperty("Content-Type", "application/vnd.oracle.adf.resourceitem+json");
 
-		con.setRequestProperty("Authorization", "Basic Y2FzdGlsbG90b21hc2FkbWluOlRTQTEyMzQ1");
+		con.setRequestProperty("Authorization", "Basic Uk9DVE9SUkVTOkZpYmVyMTIzNA==");
 //		System.out.println(json2);
 		con.setDoOutput(true);
 //		con.setDoInput(true);
