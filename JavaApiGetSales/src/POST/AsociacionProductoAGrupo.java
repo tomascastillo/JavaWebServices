@@ -7,19 +7,15 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class ApiSalesPOST {
+public class AsociacionProductoAGrupo {
 
 	public static void main(String[] args) throws IOException {
-		String ProdGroupId="300000003310499";
 		URL url = new URL(
-				"https://ccxn-test.crm.us6.oraclecloud.com/salesApi/resources/latest/setupSalesCatalogs/"+ProdGroupId+"/child/ProductGroupProductSetup");
+				"https://ccxn-test.crm.us6.oraclecloud.com/crmRestApi/resources/11.13.17.11/setupSalesCatalogs/300000003200440/child/ProductGroupRelationSetup/");
 		HttpURLConnection con = (HttpURLConnection) url.openConnection();
-		String InventoryItemId="300000003310501";
-		String InvOrgId="300000001386194";
-
-		String json = "{%InventoryItemId%: %"+InventoryItemId+"%, %InvOrgId%: %300000001386194%}";
+		String RelProdGroupId="300000003310499";
+		String json = "{%RelProdGroupId%: "+RelProdGroupId+"}";
 		String json2 = json.replaceAll("%", "\"");
-		System.out.println(url);
 		System.out.println(json2);
 		con.setRequestMethod("POST");
 		con.setRequestProperty("Content-Type", "application/vnd.oracle.adf.resourceitem+json");
