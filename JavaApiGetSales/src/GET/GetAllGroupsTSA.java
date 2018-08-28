@@ -10,10 +10,10 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
-public class GetAllRestApi {
+public class GetAllGroupsTSA {
 
 	public static void main(String[] args) throws IOException {
-		URL url = new URL("https://ccxn-test.crm.us6.oraclecloud.com/salesApi/resources/11.12.1.0/products/?"				);
+		URL url = new URL("https://ccxn-test.crm.us6.oraclecloud.com/salesApi/resources/11.12.1.0/setupSalesCatalogs/?"				);
 		HttpURLConnection con = (HttpURLConnection) url.openConnection();
 		con.setRequestMethod("GET");
 		Map<String, String> parameters = new HashMap<>();
@@ -21,7 +21,7 @@ public class GetAllRestApi {
 
 		con.setRequestProperty("Content-Type", "application/json");
 		con.setRequestProperty("Authorization", "Basic Y2FzdGlsbG90b21hc2FkbWluOlRTQTEyMzQ1");
-		PrintWriter pw = new PrintWriter(new File("productos.out"));
+		PrintWriter pw = new PrintWriter(new File("grupos.out"));
 		int status = con.getResponseCode();
 		BufferedReader in = new BufferedReader(
 				  new InputStreamReader(con.getInputStream()));

@@ -9,28 +9,26 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Scanner;
 
-public class crearProds {
+public class AsociacionSubgrupoAGrupo {
 
 	public static void main(String[] args) throws IOException {
-		Scanner sc = new Scanner(new File("productos.in"));
-		for (int i = 0; i < 221; i++) {
+		Scanner sc = new Scanner(new File("asociacionS.in"));
+		for (int i = 0; i < 1; i++) {
 
-			URL url = new URL("https://ccxn-test.crm.us6.oraclecloud.com/crmRestApi/resources/11.13.17.11/products");
+			URL url = new URL(
+					"https://ccxn-test.crm.us6.oraclecloud.com/crmRestApi/resources/11.13.17.11/setupSalesCatalogs/300000003200440/child/ProductGroupRelationSetup/");
 			HttpURLConnection con = (HttpURLConnection) url.openConnection();
-			String descripcion;
-			String itemNumber2 = sc.nextLine();
-			String name = sc.nextLine();
-			String itemNumber = itemNumber2.replaceAll("-", "");
-			descripcion = itemNumber + "-" + name;
-			String json = "{%ItemNumber% : %" + itemNumber2 + "%,  %Description% : %" + descripcion + "%,  %Name% : %"
-					+ name + "%, %DefaultUOMCode% : %zzy%, %ProductTypeCode% : %GOODS%}";
+			String RelProdGroupId = sc.nextLine();
+			String json = "{%RelProdGroupId%: " + RelProdGroupId + "}";
 			String json2 = json.replaceAll("%", "\"");
 			System.out.println(json2);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Content-Type", "application/vnd.oracle.adf.resourceitem+json");
+
 			con.setRequestProperty("Authorization", "Basic Y2FzdGlsbG90b21hc2FkbWluOlRTQTEyMzQ1");
 			con.setDoOutput(true);
 			DataOutputStream wr = new DataOutputStream(con.getOutputStream());
+
 			wr.write(json2.getBytes());
 			wr.flush();
 			wr.close();
@@ -38,12 +36,13 @@ public class crearProds {
 			BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
 			String inputLine;
 			StringBuffer response = new StringBuffer();
+
 			while ((inputLine = in.readLine()) != null) {
 				response.append(inputLine);
 			}
 			in.close();
-			System.out.println(response.toString());
 
+			System.out.println(response.toString());
 		}
 		sc.close();
 	}
