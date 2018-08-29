@@ -13,7 +13,7 @@ public class crearGrupos {
 
 	public static void main(String[] args) throws IOException {
 		Scanner sc = new Scanner(new File("grupos.in"));
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < 44; i++) {
 
 			URL url = new URL(
 					"https://ccxn-test.crm.us6.oraclecloud.com/crmRestApi/resources/11.13.17.11/setupSalesCatalogs");

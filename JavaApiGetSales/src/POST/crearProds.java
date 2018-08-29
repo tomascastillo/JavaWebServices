@@ -17,11 +17,11 @@ public class crearProds {
 
 			URL url = new URL("https://ccxn-test.crm.us6.oraclecloud.com/crmRestApi/resources/11.13.17.11/products");
 			HttpURLConnection con = (HttpURLConnection) url.openConnection();
-			String descripcion;
+			String name;
 			String itemNumber2 = sc.nextLine();
-			String name = sc.nextLine();
+			String descripcion = sc.nextLine();
 			String itemNumber = itemNumber2.replaceAll("-", "");
-			descripcion = itemNumber + "-" + name;
+			name = itemNumber + "-" + descripcion 	;
 			String json = "{%ItemNumber% : %" + itemNumber2 + "%,  %Description% : %" + descripcion + "%,  %Name% : %"
 					+ name + "%, %DefaultUOMCode% : %zzy%, %ProductTypeCode% : %GOODS%}";
 			String json2 = json.replaceAll("%", "\"");
