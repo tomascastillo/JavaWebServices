@@ -2,24 +2,23 @@ package POST;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
-import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.Scanner;
 
 public class crearProds {
 
 	public static void main(String[] args) throws IOException {
-		Scanner sc = new Scanner(new File("productos.in"));
-		for (int i = 0; i < 221; i++) {
+		BufferedReader sc = new BufferedReader(new FileReader("productos.in"));
+		while(sc.readLine()!="jaaaaaaaaaaaaaaa") {
 
 			URL url = new URL("https://ccxn.crm.us6.oraclecloud.com/crmRestApi/resources/11.13.17.11/products");
 			HttpURLConnection con = (HttpURLConnection) url.openConnection();
 			String name;
-			String itemNumber2 = sc.nextLine();
-			String descripcion = sc.nextLine();
+			String itemNumber2 = sc.readLine();
+			String descripcion = sc.readLine();
 			String itemNumber = itemNumber2.replaceAll("-", "");
 			name = itemNumber + "-" + descripcion 	;
 			String json = "{%ItemNumber% : %" + itemNumber2 + "%,  %Description% : %" + descripcion + "%,  %Name% : %"
