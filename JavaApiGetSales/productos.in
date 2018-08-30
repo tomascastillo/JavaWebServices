@@ -1,32 +1,328 @@
-105-10
-Pmos Haberes Mutuales TF      
-105-15
-Pmos Haberes Mutuales TF      
-222-0
-Generica                      
-222-1
-PF en Lebacs                  
-101-11
-Pmos Empleados Vinc Siglo XXI 
-101-2
-Pmo Consumo Mostrador mayor 60
-31-310
-Copia de la 210               
-101-50
-Pmo Consumo Mostrador hasta 60
-101-51
-Amortizaci贸n Libre Empresa    
-101-53
-Am.Automatica Empresa USD     
-101-54
-Amortizaci贸n Autom谩tica TV    
-101-20
-Pmo Consumo Mostrador hasta 60
+20-1
+Cuenta corriente P.F韘ica 
+22-1
+Tradicional Transferible  
+20-2
+Cta Cte P.Jur韉ica Especial   
+21-3
+Caja Ahorro P.F韘ica Especie  
+21-4
+Cta Cte. P.Jur韉ica Especial  
+22-4
+CDT Cajero Autom醫ico
 101-21
-Amortizaci贸n Libre Empresa    
-101-22
-Am.Automatica Empresa USD     
+Amortizaci髇 Libre Empresa    
 101-23
-Amortizaci贸n Autom谩tica TV    
+Amortizaci髇 Autom醫ica TV    
+101-3
+Amortizaci髇 Libre Empresa    
+101-5
+Amortizaci髇 Autom醫ica TV    
+101-51
+Amortizaci髇 Libre Empresa      
+102-4
+Alem醤 Cliente Cap. Fijo T/F  
+103-2
+Amortizaci髇 Libre TF
+103-22
+Pr閟tamos 1 cuota tasa fija   
+103-3
+Prest Sist Frances Cuota Fija 
+103-32
+Prestamos Personales Tasa Fija
+103-42
+Prestamos Personales Tasa Fija
+104-0
+PR蒘TAMOS EMPLEADOS   
+104-1
+Pm Empleados Multifinanzas TF 
+104-54
+Am.-Ctes/Capital Fijo - T/V   
+104-57
+Am.-Ctes. Plan Pagos - T/V    
+104-58
+Plazo Fijo - Clientes - T/V   
+104-8
+Plazo Fijo - Clientes - T/F   
+105-0
+Convenios Haberes Mutuales    
+105-1
+Pmos Haberes Mutuales TF  
+105-10
+Pmos Haberes Mutuales TF  
+105-15
+Pmos Haberes Mutuales TF  
+105-3
+Plan de Pagos - T/F   
+106-0
+Gen閞ico 
+106-1
+Pmos Haberes DECRETO 14   
+107-1
+Pmos CBU Barrido hasta 60 a駉s
+107-2
+Pmos CBU Barrido may 60 a駉s  
+107-3
+Pmos CBU COELSA hasta 60 a駉s 
+107-4
+Pmos CBU COELSA may 60 a駉s   
+108-1
+Pmo Consumo Findo TF  
+108-10
+Pmo Consumo SOLVEN TF
+109-1
+Pmo Consumo Siglo XXI TF  
+110-1
+Pmo Consumo Avanta TF
+110-2
+Alem醤 - T/F 
+110-3
+P.Pagos - T/F
+110-4
+Plazo Fijo - T/F 
+110-51
+Franc閟 - T/V
+110-52
+Alem醤 - T/V 
+110-53
+P.Pagos - T/V
+110-54
+Plazo Fijo - T/V 
+111-0
+PR蒘TAMOS COMERCIALES
+111-1
+Pmos Turismo hasta 60 a駉s    
+111-2
+Pmos Turismo Mayor 60 a駉s
+112-0
+GENERICA 
+112-1
+DPF Titulos   
+113-1
+Vehiculares  
+115-0
+PR蒘TAMOS
+115-1
+Amort. - Capital F./Empr.- T/F
+115-2
+Amort. - S/valor residual.-T/F
+115-3
+Amort. - Capital F./Empr.- T/V
+116-0
+AMORTIZABLE SOLA FIRMA    
+116-1
+Pr閟tamos 1 cuota tasa fija $ 
+116-100
+Sistema Frances tasa fija $   
+116-101
+Sistema Frances tasa fija U$s 
+116-102
+Sistema Aleman tasa fija $    
+116-103
+Sistema Aleman tasa fija U$S  
+116-104
+Americano Tasa Fija $
+116-105
+Amortizaci髇 Libre TF $   
+116-2
+Pr閟tamo 1 cuota tasa fija U$S
+116-201
+Amortiz. Frances TV   
+116-202
+Amortiz. Aleman TV    
+116-203
+Americano TV $    
+116-204
+Amortizaci髇 Libre TV $   
+116-207
+Underwriting 
+116-3
+Pr. 1 cuota tasa fija tas 0 $ 
+116-301
+Sistema Frances tasa fija $   
+116-555
+Prest con cobro interes mensua
+116-560
+Sistema Frances tasa fija $   
+116-565
+Sistema Frances tasa fija $   
+116-566
+Sistema Frances tasa fija $   
+116-568
+Sistema Frances tasa fija $   
+116-585
+Sistema Frances tasa fija $   
+116-888
+Pr 1 cuota tasa fija $ RECHAZO
+116-898
+Sistema Frances tasa fija $   
+117-0
+GENERICO 
+117-1
+Financ.Exportacion TF  U$S    
+117-2
+Financ.Importacion TF  U$S    
+117-3
+Pref.Financ.Exporta. TF  U$S  
+118-0
+GENERICA 
+118-1
+Call Money otorgado pesos TF  
+118-2
+Call Money otorgado Dolar TF  
+118-5
+Call Money tomado pesos TF    
+118-6
+Call Money Tomado USD
+120-0
+Otros Pr. Comerciales
+120-1
+Pr閟tamos 1 cuota tasa fija $ 
+120-100
+Sistema Frances tasa fija $   
+120-101
+Sistema Frances tasa fija U$s 
+120-102
+Sistema Aleman tasa fija $    
+120-103
+Sistema Aleman tasa fija U$S  
+120-104
+Americano Tasa Fija $
+120-105
+Amortizaci髇 Libre TF $   
+120-2
+Pr閟tamo 1 cuota tasa fija U$S
+120-201
+Amortiz. Frances TV   
+120-202
+Amortiz. Aleman TV    
+120-203
+Americano TV $    
+120-204
+Amortizaci髇 Libre TV $   
 120-207
-UNDERWRITING                  
+UNDERWRITING 
+120-3
+Pr. 1 cuota tasa fija tas 0 $ 
+121-5
+Call Money Tomado en Pesos    
+124-0
+GENERICA 
+124-1
+DPF Intransferible    
+17-0
+Prefinanciaci髇 Exportaciones 
+17-57
+Plazo Fijo - T/V 
+17-58
+Plazo Fijo - T/V 
+17-59
+Plazo Fijo - Plan Pagos - T/V 
+184-10
+Concertaci髇 Dep髎ito Tomado  
+184-20
+Liquidaci髇 Dep髎ito Tomado   
+20-0
+GEN蒖ICA 
+20-99
+Intereses por sobregiros  
+21-0
+GEN蒖ICA 
+21-21
+PPT  
+21-22
+Prueba   
+21-23
+CA_PRB_MJ
+21-25
+Cuenta Corriente Especial 
+22-0
+GENERICA 
+222-0
+Generica 
+222-1
+PF en Lebacs 
+31-0
+GENERICA 
+31-11
+A/Desc Otros Documentos   
+31-210
+Alta Desc fact Con Recurso    
+31-220
+Alta Desc fact Sin Recurso    
+31-310
+Copia de la 210   
+320-0
+Dep髎itos a la vista  
+320-1
+Dep髎itos Vista P. F韘icas    
+320-2
+Dep髎itos Vista P. Jur韉icas  
+320-3
+Dep髎itos Vista PF. en Especie
+320-4
+Dep髎itos Vista PJ. en Especie
+320-99
+Intereses por sobregiros  
+323-0
+Dep髎itos a la vista  
+323-1
+Dep. Vista en Gt韆. P. F韘ica 
+323-2
+Dep. Vista en Gt韆. P.Jur韉ica
+323-3
+Dep. Vista en Gt韆. Inst. Fin.
+37-0
+Tarjeta Prepaga Avanta    
+37-1
+Mastercard    
+37-2
+Visa 
+37-3
+American Express 
+41-0
+COMPRA DE CARETA 
+41-10
+Cpra de Cart S/R Sec. Finan   
+41-20
+Cpra de Cart S/R Sec. NO Finan
+41-30
+Cpra de Cart C/R Sec. Finan   
+41-40
+Cpra de Cart C/R Sec. NO Finan
+441-0
+CONTINGENCIAS ACTIVAS
+5-0
+Cartas de Cr閐ito Financiadas 
+71-0
+Descuento de Documentos   
+71-1
+Cheques tasa por documento    
+71-10
+Cheques tasa Global   
+71-11
+Cheques con Gtia atomiz.Global
+71-12
+Cheques c.Gtia Grandes Emp Glo
+71-13
+Cheques sin recurs tasa global
+71-14
+Cheques Propio  tasa global   
+71-2
+Cheques con Gtia atomiz.P/DOC 
+71-201
+Otros pr閟tamos cheque rechaza
+71-3
+Cheques con Gtia Grandes Empre
+71-4
+Cheques sin recurso por Doc   
+71-402
+Prest x Cheque Rechazado  
+71-5
+Cheques Propio  tasa por doc. 
+71-8
+Cheques tasa por documento    
+94-0
+-- 
+94-1
+Corresponsales Movimientos    

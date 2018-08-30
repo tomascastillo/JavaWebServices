@@ -15,7 +15,7 @@ public class crearProds {
 		Scanner sc = new Scanner(new File("productos.in"));
 		for (int i = 0; i < 221; i++) {
 
-			URL url = new URL("https://ccxn-test.crm.us6.oraclecloud.com/crmRestApi/resources/11.13.17.11/products");
+			URL url = new URL("https://ccxn.crm.us6.oraclecloud.com/crmRestApi/resources/11.13.17.11/products");
 			HttpURLConnection con = (HttpURLConnection) url.openConnection();
 			String name;
 			String itemNumber2 = sc.nextLine();
@@ -28,7 +28,7 @@ public class crearProds {
 			System.out.println(json2);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Content-Type", "application/vnd.oracle.adf.resourceitem+json");
-			con.setRequestProperty("Authorization", "Basic Y2FzdGlsbG90b21hc2FkbWluOlRTQTEyMzQ1");
+			con.setRequestProperty("Authorization", "Basic dGNhc3RpbGxvOlRTQTEyMzQ1");
 			con.setDoOutput(true);
 			DataOutputStream wr = new DataOutputStream(con.getOutputStream());
 			wr.write(json2.getBytes());
